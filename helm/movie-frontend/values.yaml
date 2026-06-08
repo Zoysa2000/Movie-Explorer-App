@@ -2,7 +2,7 @@ replicaCount: 2
 
 image:
   repository: thilina123/movie-app
-  tag: 45
+  tag: 46
   pullPolicy: Always
 
 service:
