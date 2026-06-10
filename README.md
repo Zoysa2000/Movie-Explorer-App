@@ -1,7 +1,7 @@
 # 🚀 Movie Explorer Development and Deployment Project (Linux Based Kubenetes Deployment) – Discover Your Favorite Films https://681f8a3032fbf14a5c5f3e73--neon-peony-8fec6a.netlify.app/
 
 MTube is a modern and intuitive movie discovery web app that lets users explore the latest trending films, search for favorites, view detailed movie info, and watch trailers — all in one place. Powered by TMDB and YouTube APIs, MTube offers a smooth browsing experience with a user-friendly interface, personalized search, and real-time data fetching.
-
+# Development Stage
 # 1] Explaining project setup
 ✔️ Initialized React App with Vite
 Created a fast and optimized React project using Vite for rapid development and hot reloading
