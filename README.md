@@ -84,7 +84,7 @@ The login screen validates user input against default credentials (username: adm
 
 
 # Deployment Stage
-# 1] Features Implemented
+# 1] Kubernetes Cluster Setup
 For the deployment environment, VirtualBox was used to create three Linux virtual machines. These virtual machines were configured to build a small Kubernetes cluster.
 
 The cluster included:
@@ -118,5 +118,16 @@ Flannel was installed as the Container Network Interface to enable pod-to-pod co
 After setting up the cluster, the nodes were verified using:
 
 <img width="1817" height="158" alt="Screenshot 2026-06-10 153826" src="https://github.com/user-attachments/assets/6ed996f9-2cda-4795-bde0-f4a69e86d007" />
+
+# 2] Docker Containerization and Push to Docker Hub using Jenkis
+The React application was containerized using Docker. A Dockerfile was created to build the application and run it inside a lightweight container.
+
+The application build process included:
+
+✔️ Installing dependencies
+✔️ Building the React application
+✔️ Serving the production build using Nginx
+✔️ Exposing the application through container port 80
+<img width="1920" height="1080" alt="Screenshot (146)" src="https://github.com/user-attachments/assets/424d7cc2-5c56-4f65-950f-2d2ee93d3854" />
 
 
