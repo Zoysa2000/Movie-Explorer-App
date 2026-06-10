@@ -84,6 +84,19 @@ The login screen validates user input against default credentials (username: adm
 
 
 # Deployment Stage
+# 1] Features Implemented
+For the deployment environment, VirtualBox was used to create three Linux virtual machines. These virtual machines were configured to build a small Kubernetes cluster.
 
+The cluster included:
+
+✔️ One Master Node
+The master node was responsible for managing the Kubernetes cluster, scheduling workloads, and controlling cluster operations.
+
+✔️ Two Worker Nodes
+The worker nodes were used to run the application pods and handle the actual application workload.
+
+This setup helped to simulate a real-world production-like Kubernetes environment where applications are deployed across multiple nodes instead of running on a single machine like some ancient village server setup.
+
+<img width="1817" height="158" alt="Screenshot 2026-06-10 153826" src="https://github.com/user-attachments/assets/6ed996f9-2cda-4795-bde0-f4a69e86d007" />
 
 
