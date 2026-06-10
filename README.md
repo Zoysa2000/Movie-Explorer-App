@@ -131,4 +131,23 @@ The application build process included:
  
  <img width="1920" height="1080" alt="Screenshot (146)" src="https://github.com/user-attachments/assets/424d7cc2-5c56-4f65-950f-2d2ee93d3854" />
 
+ # 3] Kubernetes Deployment
+ After pushing the Docker image, Kubernetes deployment files were created to deploy the application inside the cluster.
+
+The main Kubernetes resources included:
+
+✔️ Deployment
+Used to manage the application pods and replicas.
+
+✔️ Service
+Used to expose the application inside or outside the cluster use the NodePort.
+
+✔️ Pods
+The running instances of the MTube application container.
+
+The deployment file defined the container image, replica count, container port, and labels. Kubernetes then pulled the Docker image and created the application pods.
+<img width="1774" height="250" alt="Screenshot 2026-06-10 155509" src="https://github.com/user-attachments/assets/d9ba86e6-6c1f-4977-8425-0b53151cc872" />
+
+
+
 
