@@ -129,7 +129,8 @@ The application build process included:
 ✔️ Serving the production build using Nginx
 ✔️ Exposing the application through container port 80
  
- <img width="1920" height="1080" alt="Screenshot (146)" src="https://github.com/user-attachments/assets/424d7cc2-5c56-4f65-950f-2d2ee93d3854" />
+ <img width="1920" height="1080" alt="Screenshot (146)" src="https://github.com/user-attachments/assets/68891c0d-169e-4efd-8502-4575362091de" />
+
 
  # 3] Kubernetes Deployment
  After pushing the Docker image, Kubernetes deployment files were created to deploy the application inside the cluster.
