@@ -96,6 +96,26 @@ The master node was responsible for managing the Kubernetes cluster, scheduling 
 The worker nodes were used to run the application pods and handle the actual application workload.
 
 This setup helped to simulate a real-world production-like Kubernetes environment where applications are deployed across multiple nodes instead of running on a single machine like some ancient village server setup.
+A Kubernetes cluster was created using kubeadm. After initializing the master node, the worker nodes were joined to the cluster using the kubeadm join command.
+
+The following Kubernetes components were used:
+
+✔️ kube-apiserver
+Used to communicate with the Kubernetes cluster.
+
+✔️ kubelet
+Runs on each node and manages the pods.
+
+✔️ kube-proxy
+Handles networking rules and service communication.
+
+✔️ CoreDNS
+Provides DNS resolution inside the Kubernetes cluster.
+
+✔️ Flannel CNI
+Flannel was installed as the Container Network Interface to enable pod-to-pod communication across different nodes.
+
+After setting up the cluster, the nodes were verified using:
 
 <img width="1817" height="158" alt="Screenshot 2026-06-10 153826" src="https://github.com/user-attachments/assets/6ed996f9-2cda-4795-bde0-f4a69e86d007" />
 
