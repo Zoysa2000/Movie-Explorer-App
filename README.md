@@ -145,8 +145,15 @@ Used to expose the application inside or outside the cluster use the NodePort.
 ✔️ Pods
 The running instances of the MTube application container.
 
-The deployment file defined the container image, replica count, container port, and labels. Kubernetes then pulled the Docker image and created the application pods.
+The deployment file defined the container image, replica count, container port, and labels. Kubernetes then pulled the Docker image and created the application
+pods.
 <img width="1774" height="250" alt="Screenshot 2026-06-10 155509" src="https://github.com/user-attachments/assets/d9ba86e6-6c1f-4977-8425-0b53151cc872" />
+
+# Live Application Running on Kubenetes
+<img width="1920" height="1080" alt="Screenshot (149)" src="https://github.com/user-attachments/assets/3e2565e6-6324-4ec1-9789-21d27f0a85aa" />
+<img width="1920" height="1080" alt="Screenshot (148)" src="https://github.com/user-attachments/assets/db48b6a4-35df-4e7c-be4b-b7066652d63b" />
+<img width="1920" height="1080" alt="Screenshot (147)" src="https://github.com/user-attachments/assets/4d7ee03b-c554-468e-bf06-046d99c0c579" />
+
 
 
 
