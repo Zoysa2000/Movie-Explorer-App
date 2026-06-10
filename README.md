@@ -119,7 +119,7 @@ After setting up the cluster, the nodes were verified using:
 
 <img width="1817" height="158" alt="Screenshot 2026-06-10 153826" src="https://github.com/user-attachments/assets/6ed996f9-2cda-4795-bde0-f4a69e86d007" />
 
-# 2] Docker Containerization and Push to Docker Hub using Jenkis
+# 2] Docker Containerization and Push to Docker Hub using Jenkins
 The React application was containerized using Docker. A Dockerfile was created to build the application and run it inside a lightweight container.
 
 The application build process included:
