@@ -128,6 +128,7 @@ The application build process included:
 ✔️ Building the React application
 ✔️ Serving the production build using Nginx
 ✔️ Exposing the application through container port 80
-<img width="1920" height="1080" alt="Screenshot (146)" src="https://github.com/user-attachments/assets/424d7cc2-5c56-4f65-950f-2d2ee93d3854" />
+ 
+ <img width="1920" height="1080" alt="Screenshot (146)" src="https://github.com/user-attachments/assets/424d7cc2-5c56-4f65-950f-2d2ee93d3854" />
 
 
